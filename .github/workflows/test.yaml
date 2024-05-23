@@ -1,7 +1,7 @@
 ## This file will run the tests for the functions in the files -
-  numeric_derivative.py, rmse.py, & tensor_derivative.py
+#  numeric_derivative.py, rmse.py, & tensor_derivative.py
 # For these 3 files, there are test files created named - 
-  numeric_derivative_test.py, rmse_test.py, & tensor_derivative_test.py
+#  numeric_derivative_test.py, rmse_test.py, & tensor_derivative_test.py
 
 ## Code for testing first 3 files using the later 3 files:
 name: Test
