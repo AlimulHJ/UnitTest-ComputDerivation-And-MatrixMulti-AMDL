@@ -21,12 +21,12 @@ jobs:
       run: |
         python -m pip install --upgrade pip
         pip install -r requirements.txt
-    - name: Test numeric_derivative.py
+    - name: Test numeric_derivation.py
       run: |
-        python -m pytest numeric_derivative_test.py
+        python -m pytest numeric_derivation_test.py
     - name: Test rmse.py
       run: |
         python -m pytest rmse_test.py
-    - name: Test tensor_derivative.py
+    - name: Test tensor_multiplication.py
       run: |
-        python -m pytest tensor_derivative_test.py
+        python -m pytest tensor_multiplication_test.py
