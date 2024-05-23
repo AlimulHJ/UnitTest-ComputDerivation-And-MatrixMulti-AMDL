@@ -56,7 +56,7 @@ def calculate_activation(sum_total):
     """
     # Calculate the activation function (Step function - heaviside).
     # heaviside: It returns 0 if x <= 0, 1 if x > 0.
-    res = torch.heaviside(sum_total, 0)
+    res = torch.heaviside(sum_total, torch.tensor(0.0))
     return res
 
 def calculate_output(X, W, b):
